@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PanleComponent } from './panle.component';
+import { MangaListComponent } from './manga-list.component';
 
-describe('PanleComponent', () => {
-  let component: PanleComponent;
-  let fixture: ComponentFixture<PanleComponent>;
+describe('MangaListComponent', () => {
+  let component: MangaListComponent;
+  let fixture: ComponentFixture<MangaListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PanleComponent ]
+      declarations: [ MangaListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PanleComponent);
+    fixture = TestBed.createComponent(MangaListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

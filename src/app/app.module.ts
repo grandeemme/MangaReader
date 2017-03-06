@@ -4,13 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { PanleComponent } from './panle/panle.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import {MangaEdenService} from './service/manga-eden.service';
+import { MainComponent } from './panel/main/main.component';
+import { MangaListComponent } from './panel/manga-list/manga-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PanleComponent
+    MainComponent,
+    MangaListComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +22,7 @@ import { PanleComponent } from './panle/panle.component';
     HttpModule,
     NgbModule.forRoot(),
   ],
-  providers: [],
+  providers: [MangaEdenService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
