@@ -18,7 +18,7 @@
     "@angular/forms": "^4.0.0-rc.2",
     "@angular/http": "^4.0.0-rc.2",
     "@angular/platform-browser": "^7.2.15",
-    "@angular/platform-browser-dynamic": "^4.0.0-rc.2",
+    "@angular/platform-browser-dynamic": "^8.0.0",
     "@angular/router": "^4.0.0-rc.2",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.20",
     "bootstrap": "^4.0.0-alpha.6",
